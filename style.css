@@ -129,16 +129,10 @@ h1 {
     top: 10%;
     font-weight: 700;
     font-size: 30px;
+    margin-right: 6px;
 }
 
-span {
-    text-align: center;
-}
-.per-month {
-    margin-left: 6px;
-}
-
-button {
+.btn {
     font-family: 'Karla';
     font-weight: 700;
     width: 100%;
@@ -178,3 +172,47 @@ button {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+@media only screen and (max-width: 375px) {
+    body {
+      padding: 10px;
+    }
+  
+    .card {
+      width: 100%; 
+      border-radius: 0;
+    }
+  
+    .card1,
+    .card2 {
+      padding: 20px;
+    }
+  
+    .card1 h1 {
+      margin-bottom: 15px;
+    }
+  
+    .sub-card1,
+    .sub-card2 {
+      padding: 20px;
+    }
+  
+    .sub-card1 h2 {
+      margin-bottom: 20px; 
+    }
+  
+    .sub-card1 p,
+    .sub-card2 p {
+      margin-bottom: 20px;
+    }
+  
+    .btn {
+      height: 40px;
+    }
+  
+    .attribution {
+      margin-top: 20px;
+      font-size: 10px;
+    }
+  }
+  
